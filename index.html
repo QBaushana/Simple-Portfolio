@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qhamani Baushana Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="QHAMANI BAUSHANA LOGO.png" alt="Logo" class="logo">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="introduction">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Qhamani Baushana, a Full-Stack Web Developer with a passion for creating dynamic and responsive websites. Explore my work and skills below.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Front-End</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="skill">
+                <h3>Back-End</h3>
+                <p>Node.js, Express, MongoDB</p>
+            </div>
+            <div class="skill">
+                <h3>Other</h3>
+                <p>Git, REST APIs, Agile Development</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A description of the first project.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>A description of the second project.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A description of the third project.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Me</h3>
+                <p>Full-Stack Web Developer with a passion for creating dynamic and responsive websites.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: qhamani@example.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2024 Qhamani Baushana. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
